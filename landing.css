@@ -1,0 +1,38 @@
+/* NavBar */
+ul {
+  list-style-type: none;
+  background-color: #ececec;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0%;
+}
+
+li {
+  display: inline;
+  text-align: right;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  padding: 2.5%;
+  
+} 
+
+li a:hover {
+  background-color: #9c9c9c;
+}
+
+#navBarParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: right;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, .5);
+}
+#navBarChild {
+  flex-basis: 100%;
+}
+/* MainImage */
