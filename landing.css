@@ -14,7 +14,7 @@ ul {
 li {
   display: inline;
   text-align: right;
-  
+
 }
 
 li a {
@@ -39,9 +39,19 @@ li a:hover {
 #navBarChild {
   flex-basis: 100%;
 }
-/* MainImage */
-#wHouseImage {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
+/* MainTextImage */
+#MainTextImage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.wHouseSideButtons {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+.wHouseImageParent {
+  flex-basis: 100%;
+  margin: 1%;
 }
