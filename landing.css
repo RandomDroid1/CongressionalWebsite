@@ -40,18 +40,37 @@ li a:hover {
   flex-basis: 100%;
 }
 /* MainTextImage */
-#MainTextImage {
+img {
+  z-index: -1;
+}
+
+#wHouseSideButtons {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.wHouseSideButtons {
-  flex-basis: 100%;
+.sideButton {
+   flex-basis: 100%;
   margin: 1%;
+  margin: 3%;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#ececec;
+  border: 5px solid gray;
+  border-radius: 1em;
+  font-size: 200%;
 }
 
-.wHouseImageParent {
+#wHouseImageParent {
   flex-basis: 100%;
-  margin: 1%;
+  margin: 0%;
+}
+
+#wHouseImage {
+object-fit: cover;
+width: 100%;
+position: fixed;
+z-index: -1;
 }
