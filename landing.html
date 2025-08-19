@@ -11,6 +11,7 @@
 <body>
 <script src="index.js"></script>
 <div id="navBarParent">
+<!-- Top Navigation Bar -->
 <ul id="navBarChild">
     <li>
         <a href="about.html">About</a>
@@ -29,23 +30,56 @@
     </li>
 </ul>
 </div>
-
-<div id="MainTextImage">
+<!-- White House Image -->
    <div id="wHouseImageParent">
     <img src="LandingWHouse.png" id="wHouseImage">
   </div>
-<br>
+<!-- Lower Navigation Bar -->
   <div id="wHouseSideButtons">
-    <a href="volunteer" ><button class="sideButton">Volunteer</button></a>
-    <br>
-    <a href="states"><button class="sideButton">States</button></a>
-    <br>
-    <a href="campaign"><button class="sideButton">Campaign</button></a>
-    <br>
-    <a href="issues"><button class="sideButton">Issues</button></a>
+    <ul id="wHouseSideButtonsChild">
+      <li id="wHouseSideButtonsList">
+        <a href="volunteer" class="SideButton">Volunteer</a>
+      </li>
+      <li>
+        <a href="states" class="SideButton">States</a>
+      </li>
+      <li>
+        <a href="campaign" class="SideButton">Campaign</a>
+      </li>
+      <li>
+        <a href="issues" class="SideButton">Issues</a>
+      </li>
+    </ul>
+  </div>
+<!-- Latest News -->
+
+<h1> Latest News </h1>
+<div id="latestNews">
+  <div id="newsSection1">
+    <h2>Heading</h2>
+    <img src="LandingWHouse.png" id="newsImage1">
+    <p>text text text text text text</p>
+    <button class="newsButton">See More</button>
+  </div>
+
+  <div id="newsSection2">
+    <h2>Heading</h2>
+    <img src="LandingWHouse.png" id="newsImage2">
+    <p>text text text text text text</p>
+    <button class="newsButton">See More</button>
+  </div>
+
+  <div id="newsSection3">
+    <h2>Heading</h2>
+    <img src="LandingWHouse.png" id="newsImage3">
+    <p>text text text text text text. Can you believe ms. bbq did that terrible thing I never wouldve thunk it</p>
+    <button class="newsButton">See More</button>
   </div>
 </div>
 
-<footer>TestMarker</footer>
+<!-- Footer -->
+<div>
+  <footer>TestMarker</footer>
+</div>
 </body>
 </html>
