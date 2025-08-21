@@ -1,1 +1,5 @@
-To-Do:
+To-Do: 
+Fun Value that generates on website opening, changes small, small things and only a few major things
+Like every page
+Place where if you type in scary blue it turns the whole screen black and pops up an image of scary blue
+place where you can assign skills, they affect nothing?

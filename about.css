@@ -1,0 +1,96 @@
+/* To-Do: Finish Footer, make mobile compatible */
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(152, 155, 206)
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        }
+/* NavBar */
+ul {
+  list-style-type: none;
+  background-color: #ececec;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0%;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  padding: 2.5%;
+  
+} 
+
+li a:hover {
+  background-color: #9c9c9c;
+}
+
+#navBarParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: right;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, .5);
+  max-height: 300px;
+}
+
+#navBarChild {
+  flex-basis: 100%;
+  float: right;
+}
+
+#navBarImage {
+ float: left;
+ max-width: 7%;
+ margin: 0%;
+ padding: 0%;
+ flex-basis: 10%;
+}
+
+/* PageText */
+h2 {
+  font-size: 500%;
+  background-color: rgb(152, 155, 206);
+  padding-bottom:2%;
+  padding-left: 1%;
+  margin-top:1%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  
+}
+
+#mainTextParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin-top: -4%;
+}
+
+#mainTextNavigator {
+  flex-basis: 20%;
+  border-right: 2px solid black;
+  font-size: 200%;
+  margin-left: 0%;
+  background-color:#b6b6b6;
+  padding-left: 15%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mainText {
+  flex-basis: 40%;
+  padding-left: 2%;
+  font-size: 125%;
+  background-color:#d6d6d6;
+  padding-top: 2%;
+  padding-right: 25%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
