@@ -3,6 +3,7 @@ To-Do:
 Write in main text for about.html
 make landing.html mobile compatible
 Touch up footer on landing.html
+Create contact form on contact.html and js
         FUN:
 
         OTHER:
