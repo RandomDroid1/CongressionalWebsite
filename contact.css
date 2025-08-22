@@ -1,0 +1,56 @@
+/* To-Do:  */
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color:#e4e4e4;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        }
+/* NavBar */
+ul {
+  list-style-type: none;
+  background-color: #ececec;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0%;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  padding: 2.5%;
+  
+} 
+
+li a:hover {
+  background-color: #9c9c9c;
+}
+
+#navBarParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: right;
+  box-shadow: 0px 2px 5px rgb(0, 0, 0, .5);
+  max-height: 300px;
+}
+
+#navBarChild {
+  flex-basis: 100%;
+    float: right;
+}
+
+#navBarImage {
+ float: left;
+ max-width: 7%;
+ margin: 0%;
+ padding: 0%;
+ flex-basis: 10%;
+}
