@@ -56,7 +56,7 @@ li a:hover {
 }
 
 /* PageText */
-h2 {
+#header {
   font-size: 500%;
   background-color: rgb(152, 155, 206);
   padding-bottom:2%;
@@ -69,22 +69,46 @@ h2 {
 }
 /* NewsSections */
 
-#newsSectionGeneral {
+h2 {
+    font-size: 200%;
+}
+.latestNews {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  text-align: right;
+  width: auto;
+  height: auto;
 }
 
-#newsSection1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  text-align: right;
+.newsImage {
+  width: 50%;
+  height: 65%;
+  border-radius: 1em;
+  float: left;
 }
-#newsSection2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  text-align: right;
+
+.newsSection  {
+  flex-basis: 100%;
+  text-align: center;
+  background-color: rgb(170, 170, 170);
+  margin: 1%;
+  padding: 1%;
+  padding-top: .1%;
+  padding-bottom: 1%;
+  border-radius: 1em;
+  margin-bottom: 2%;
+}
+
+.newsButton {
+  font-size: 150%;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.newsText {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-left: 1%;
+  margin-right: 1%;
 }
