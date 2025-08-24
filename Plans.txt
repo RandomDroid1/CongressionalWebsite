@@ -4,12 +4,18 @@ Write in main text for about.html
 make landing.html mobile compatible
 Touch up footer on landing.html
 Create contact form on contact.html and js
+flesh out about.html
 add in all articles on basic news page        
 
 FUN:
-
-        OTHER:
-Fun Value that generates on website opening, changes small, small things and only a few major things
+Generate a number 1-1000 on disclaimer, which sticks throughout rest of site.
+Fun Value that generates on website opening, changes small, small things and only a few major things (if you generate a fun value that does a major change it makes a disclaimer on the landing)
 Like every page
-Place where if you type in scary blue it turns the whole screen black and pops up an image of scary blue
-place where you can assign skills, they affect nothing?
+1 - Color scheme changes from blue to green
+2 - color scheme changes from blue to red
+3 - color scheme changes from blue to orange
+4-10 - gives you access to the devlog via a png of a door on the about page
+11 - Scary blue haunts you in the top right corner, no matter what (gives disclaimer with ability to turn off)
+Cheat codes:
+Enter "I'm having fun" into the name of the volunteer section to access a panel to custom set fun values w/ a guide on which numbers do what
+Enter "Scary Blue" into the volunteer or contact menu to get a scary blue jumpscare where your whole screen turns black and scary blue pops up
