@@ -4,7 +4,9 @@ Write in main text for about.html
 make landing.html mobile compatible
 Touch up footer on landing.html
 Create contact form on contact.html and js
-        FUN:
+add in all articles on basic news page        
+
+FUN:
 
         OTHER:
 Fun Value that generates on website opening, changes small, small things and only a few major things
