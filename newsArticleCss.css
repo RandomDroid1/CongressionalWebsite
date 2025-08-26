@@ -68,18 +68,28 @@ h1 {
     margin-right: 5%;
 }
 
-#date {
-    font-size: 100%;
-    font-family: Courier;
-    float: left;
-}
 
-button {
+#navBarChildDate {
+  flex-basis: 100%;
     float: right;
-    border: 3px solid red;
-    border-radius: 1em;
+  list-style-type: none;
+  background-color: #e4e4e4;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0%;
 }
 
-p {
-    text-align: center
+.dateList a:hover {
+  background-color: #e4e4e4;
+}
+
+#navBarParentDate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: right;
+}
+
+#date {
+    float: left;
 }
