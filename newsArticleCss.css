@@ -67,7 +67,13 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
 }
-
+#navBarParentDate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: right;
+  border-bottom: 1px solid #9c9c9c;
+}
 
 #navBarChildDate {
   flex-basis: 100%;
@@ -79,17 +85,23 @@ h1 {
   margin: 0%;
 }
 
+.datelist {
+    margin-top: 0%;
+ 
+}
+
 .dateList a:hover {
   background-color: #e4e4e4;
 }
 
-#navBarParentDate {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  text-align: right;
-}
 
 #date {
     float: left;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3%;
+}
+
+p {
+    text-align: center;
 }
