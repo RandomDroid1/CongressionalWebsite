@@ -121,7 +121,7 @@ h2 {
   border-radius: 1em;
 }
 #newsSection1, #newsSection2, #newsSection3  {
-  flex-basis: 100%;
+  flex-basis: 33%;
   text-align: center;
   background-color: rgb(170, 170, 170);
   margin: 1%;
@@ -192,5 +192,32 @@ h2 {
   margin-top: 5px;
   margin-right: 5px;
   flex-shrink: 1;
+}
+#customNews1Heading {
+  font-size: 215%;
+}
+#customNews2Heading {
+  font-size: 210%;
+}
+
+/* NavBar SizeAdjustments */
+
+@media only screen and (max-width: 1000px) {
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  padding: 2.5%;
+}
+} 
+
+/* LowerNavBar SizeAdjustments */
+@media only screen and (max-width: 1000px) {
+  .SideButton {
+  margin: 10%;
+  font-size: 200%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 }
 
