@@ -83,7 +83,6 @@ li a:hover {
     flex-basis: 90%;
     margin-left: 10%;
     border-left: 1px solid gray;
-    padding-top: 0%;
 
 }
 .billTitle {
@@ -91,7 +90,7 @@ li a:hover {
     padding-left: 1%;
     margin-bottom: 0%;
     font-size: 150%;
-    background-color: rgb(189, 189, 189)
+    background-color: rgb(212, 212, 212)
 }
 
 .billAuthor {
@@ -105,10 +104,22 @@ li a:hover {
 p {
   padding-left: 2%;
   margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 2%;
+  background-color: rgb(212, 212, 212);
 }
 
 .billVoteYes {
     background-color: rgb(142, 180, 155);
+    flex-basis: 20%;
+    text-align: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.billVoteNo {
+    background-color: rgb(204, 159, 159);
     flex-basis: 20%;
     text-align: center;
     font-size: 150%;
