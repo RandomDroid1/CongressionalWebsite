@@ -44,17 +44,20 @@ li a:hover {
 
 #navBarChild {
   flex-basis: 100%;
-  float: right;
+    float: right;
 }
 
 #navBarImage {
- float: left;
+    float: left;
  max-width: 7%;
  margin: 0%;
  padding: 0%;
  flex-basis: 10%;
 }
 
+#imageButton:hover {
+  background-color: #ececec;
+}
 /* PageText */
 h2 {
   font-size: 500%;

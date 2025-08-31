@@ -54,6 +54,9 @@ li a:hover {
  flex-basis: 10%;
 }
 
+#imageButton:hover {
+  background-color: #ececec;
+}
 /* Top area */
 
 h1 {
