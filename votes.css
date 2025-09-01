@@ -87,8 +87,8 @@ li a:hover {
     flex-basis: 90%;
     margin-left: 10%;
     border-left: 1px solid gray;
-
 }
+
 .billTitle {
     display: flex;
     padding-left: 1%;
@@ -131,3 +131,19 @@ p {
     font-weight: 300;
 }
 
+/* BillsLong */
+.billTitleLong {
+    display: flex;
+    padding-left: 1%;
+    margin-bottom: 0%;
+    font-size: 115%;
+    background-color: rgb(212, 212, 212)
+}
+
+.billAuthorLong {
+  padding-left: 2%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 2em;
+  font-size: 75%;
+}
