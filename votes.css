@@ -148,3 +148,11 @@ p {
   margin-top: 2em;
   font-size: 75%;
 }
+
+#lastBill {
+  margin-bottom: 1%;
+}
+
+#proudRep {
+  background-color:rgb(0,0, 54);
+}
