@@ -1,3 +1,4 @@
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 My project is a mimic (parody? satire? whatever the word is) congressional website for a character me and my friends played as (Barbie Q.) in a choose your own adventure game a few years ago. It is just called Congressional Website (im so good at naming things)
 I made my project to try and push my css and html knowledge a bit before I go and try and do python (which I know 0 python so thats gonna be tough but a really good learning experience), it was pretty fun.
 I made my project using VScode and a lot of time, also https://www.w3schools.com/css/default.asp was really helpful, helped me understand a lot of concepts I did not know existed before this.
